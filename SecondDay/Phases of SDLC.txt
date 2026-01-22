@@ -1,0 +1,19 @@
+Phases of SDLC
+
+1.Requirements Analysis
+The process of collecting, analysing, and documenting user and system requirements. The output is usually a Software Requirement Specification (SRS) document.
+
+2.System Design
+The phase where the overall system architecture and detailed design are prepared based on the requirements. It includes module design, database design, and interface design.
+
+3.Implementation (Coding)
+In this phase, developers convert the system design into source code using suitable programming languages and tools.
+
+4.Testing
+Testing is performed to verify and validate that the software works correctly and meets the specified requirements. It includes Unit Testing, Integration Testing, System Testing, and User Acceptance Testing (UAT).
+
+5.Deployment
+After successful testing, the application is released into the production environment for real-world usage by end users.
+
+6.Maintenance
+This phase involves post-deployment support such as fixing bugs, improving performance, applying updates, and adding new features based on user feedback.
