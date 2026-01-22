@@ -1,0 +1,50 @@
+1. Create a Directory
+
+Command: labex:project/ $ mkdir veevalinux
+
+
+2.Navigate into it
+
+Command: labex:project/ $ cd veevalinux
+
+3.Create a file
+
+Command: labex:veevalinux/ $ touch demo.txt
+
+4.Assign read and write permissions to the owner, and read-only permission to group and others (Symbolic & Numeric permissions)
+
+(a)Symbolic Command: labex:veevalinux/ $ chmod u=rw,g=r,o=r demo.txt  
+
+         Further Commands,
+      -> labex:veevalinux/ $ ls -l demo.txt (To check the permissions of the file)
+
+      -> -rw-r--r-- 1 labex labex 6 Jan 22 12:24 demo.txt (Output)
+
+(b)Numeric Command: labex:veevalinux/ $ chmod 644 demo.txt
+
+       Further Commands,
+      -> labex:veevalinux/ $ ls -l demo.txt (To check the permissions of the file)
+
+      -> -rw-r--r-- 1 labex labex 6 Jan 22 12:26 demo.txt (Output)
+
+
+5.Display the file content
+
+Commands: labex:veevalinux/ $ echo Mohan > demo.txt
+          labex:veevalinux/ $ cat demo.txt 
+          Mohan
+
+6.Verify the file permission
+
+Commands: labex:veevalinux/ $ ls -l demo.txt 
+          -rw-r--r-- 1 labex labex 6 Jan 22 12:29 demo.txt
+
+
+           
+
+
+
+
+
+
+
